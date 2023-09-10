@@ -1,0 +1,39 @@
+<!-- In this webpage we can see changing colors in our hyperlink for different cases -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* in this we will have green color in our link when it is initially seen in our webpage */
+        a:link{
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        /* nowour hyperlink will appear pink whenever our website will be visited */
+        a:visited{
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        /* whenever our cursor will be on our hyperlink then it will change it's color to red color */
+        a:hover{
+            color: red;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        /* if we click our right click on the hyperlink then it will appear yellow */
+        a:active{
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <p>You canchange the default colors of the links</p>
+    <a href="https://www.KIET.edu" target="_blank">KIET website link</a>
+</body>
+</html>
